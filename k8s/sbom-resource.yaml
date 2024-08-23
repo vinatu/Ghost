@@ -1,0 +1,6 @@
+apiVersion: example.com/v1
+kind: SBOM
+metadata:
+  name: example-sbom
+spec:
+  image: "your-docker-image"

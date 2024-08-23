@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/vinatu/Ghost.git'
+    repoURL: 'https://github.com/your-username/Ghost.git'
     targetRevision: HEAD
-    path: .
+    path: k8s
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
